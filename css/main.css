@@ -1,0 +1,79 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: grey;
+  margin-bottom: 24px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.contact {
+  margin-bottom: 48px;
+}
+
+.contact-item {
+  margin-bottom: 4px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("https://images3.alphacoders.com/108/thumb-1920-1085605.jpg");
+  min-height: 100vh;
+  padding: 128px;
+  background-position: top left;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 36px;
+  }
+}
+
+.profile {
+  width: 210px;
+  height: 210px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 10px 10px 0px 0px black;
+}
